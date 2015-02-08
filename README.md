@@ -3,7 +3,7 @@ urlesc [![Build Status](https://travis-ci.org/opennota/urlesc.png?branch=master)
 
 Package urlesc implements query escaping as per RFC 3986.
 
-It contains some parts of the net/url package, modifed so as to allow
+It contains some parts of the net/url package, modified so as to allow
 some reserved characters incorrectly escaped by net/url (see [issue 5684](https://github.com/golang/go/issues/5684)).
 
 ## Install

@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package urlesc implements query escaping as per RFC 3986.
-// It contains some parts of the net/url package, modifed so as to allow
+// It contains some parts of the net/url package, modified so as to allow
 // some reserved characters incorrectly escaped by net/url.
 // See https://github.com/golang/go/issues/5684
 package urlesc
