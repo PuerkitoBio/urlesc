@@ -1,5 +1,7 @@
 language: go
-
+arch:
+   - ppc64le
+   - amd64
 go:
   - 1.4.x
   - 1.5.x
@@ -7,6 +9,11 @@ go:
   - 1.7.x
   - 1.8.x
   - tip
+jobs:
+  exclude :
+    - arch : ppc64le
+      go :
+       - 1.4.x 
 
 install:
   - go build .
